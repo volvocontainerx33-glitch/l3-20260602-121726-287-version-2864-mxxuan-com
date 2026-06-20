@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>站内搜索-热门亚洲电影-热门电影片库-精选内容持续更新</title>
+  <meta name="description" content="热门亚洲电影站内搜索页，可搜索影片名称、地区、类型、年份和标签。">
+  <meta name="keywords" content="热门亚洲电影,亚洲电影,热门影片,电影片库,精选电影,高清电影,搜索,影片搜索">
+  <meta name="renderer" content="webkit">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script defer src="assets/js/site.js"></script>
+</head>
+<body class="search">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="热门亚洲电影">
+        <span class="brand-mark">▶</span>
+        <span class="brand-text">热门亚洲电影</span>
+      </a>
+      <nav class="main-nav" aria-label="主导航">
+        <a class="nav-link " href="index.html">首页</a>
+        <a class="nav-link " href="categories.html">分类</a>
+        <a class="nav-link " href="ranking.html">热播榜</a>
+        <a class="nav-link " href="all.html">全部片库</a>
+      </nav>
+      <form class="header-search" action="search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、地区、标签" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="menu-toggle" type="button" aria-label="展开菜单">☰</button>
+    </div>
+    <div class="mobile-panel">
+      <form class="mobile-search" action="search.html" method="get">
+        <input type="search" name="q" placeholder="搜索影片、地区、标签" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+      <div class="mobile-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类总览</a>
+        <a href="ranking.html">热播榜</a>
+        <a href="all.html">全部片库</a>
+          <a href="category-asian-hot.html">热门亚洲</a>
+          <a href="category-chinese-choice.html">华语热片</a>
+          <a href="category-japan-korea.html">日韩精选</a>
+          <a href="category-suspense-fantasy.html">悬疑奇幻</a>
+          <a href="category-sci-fi-action.html">科幻动作</a>
+      </div>
+    </div>
+  </header>
+  <main class="page-main search-page">
+    <section class="page-hero small-hero">
+      <div>
+        <span class="eyebrow">热门亚洲电影 · 站内搜索</span>
+        <h1>搜索片库</h1>
+        <p>输入影片名、地区、类型、年份或标签，快速定位详情页。</p>
+      </div>
+    </section>
+    <section class="search-panel">
+      <form class="big-search" action="search.html" method="get">
+        <input type="search" name="q" id="searchInput" placeholder="请输入关键词" autocomplete="off">
+        <button type="submit">搜索</button>
+      </form>
+      <p id="searchSummary">请输入关键词进行搜索。</p>
+    </section>
+    <section class="content-section no-top">
+      <div class="movie-grid" id="searchResults"></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <strong>热门亚洲电影</strong>
+        <p>热门亚洲电影页面展示高关注度亚洲影片，按热度、题材和地区整理，便于浏览热门片库。</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类</a>
+        <a href="ranking.html">热播榜</a>
+        <a href="sitemap.xml">站点地图</a>
+      </div>
+    </div>
+    <p class="copyright">© 2026 热门亚洲电影 · 热门电影片库</p>
+  </footer>
+  <script type="application/json" id="searchConfig">{"base":""}</script>
+  <script type="module" src="assets/js/search.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
